@@ -22,7 +22,7 @@ repo/
 
 ---
 
-# **🖥️ 1. Running the Server**
+## **🖥️ 1. Running the Server**
 
 Before using the extension, start the backend server that handles LLM reasoning and code execution.
 
@@ -54,7 +54,7 @@ The Chrome extension will send requests to this endpoint.
 
 ---
 
-# **🧩 2. Setting Up the Chrome Extension**
+## **🧩 2. Setting Up the Chrome Extension**
 
 Now that the server is running, you can load the extension into Chrome.
 
@@ -81,7 +81,7 @@ After loading:
 
 ---
 
-# **📝 3. How to Use the Extension**
+## **📝 3. How to Use the Extension**
 
 1. Visit any webpage containing code
 2. Highlight the code snippet
@@ -93,7 +93,7 @@ After loading:
 
 ---
 
-# **🎯 Summary**
+## **🎯 Summary**
 
 You now have:
 
