@@ -1,21 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "Code Assistant",
+  "name": "Agent Sandbox",
   "version": "1.0",
-  "description": "Select code on any webpage and get execution insight from your LLM agent.",
+  "description": "Chat with your Novita AI sandbox agent over WebSocket.",
   "permissions": [
     "contextMenus",
     "activeTab",
     "scripting"
   ],
   "host_permissions": [
-    "http://localhost:8000/*"
+    "ws://localhost:8000/*",
+    "http://localhost:8000/*",
+    "https://localhost:8000/*"
   ],
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_popup": "popup.html"
+    "default_icon": "icon.png"
   },
   "content_scripts": [
     {
@@ -25,4 +27,3 @@
     }
   ]
 }
-
