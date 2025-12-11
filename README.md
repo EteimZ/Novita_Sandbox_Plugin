@@ -9,15 +9,12 @@ Users can highlight code on any webpage, send it to the extension, and receive e
 
 ```
 repo/
-├── plugin/               # Chrome extension files
+├── code-assistant-extension/               # Chrome extension files
 │   ├── manifest.json
 │   ├── background.js
 │   ├── content.js
-│   ├── popup.html
-│   ├── popup.js
 │   ├── styles.css
-│   └── (other assets)
-└── main.py               # Plugin server (LLM + Sandbox backend)
+└── main.py               # Extension server (LLM + Sandbox backend)
 ```
 
 ---
